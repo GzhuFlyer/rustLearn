@@ -11,6 +11,6 @@ fn max(array: &[i32]) -> i32 {
 }
 
 fn main() {
-    let a = [2, 4, 6, 3, 1];
+    let a  = [2, 4, 6, 3, 1];
     println!("max = {}", max(&a));
 }
