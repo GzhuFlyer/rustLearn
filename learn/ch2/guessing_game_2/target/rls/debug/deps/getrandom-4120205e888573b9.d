@@ -1,0 +1,9 @@
+e:\Document\rust\rustLearn\learn\ch2\guessing_game_2\target\rls\debug\deps\getrandom-4120205e888573b9.rmeta: C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\lib.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\error.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\util.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\error_impls.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\windows.rs
+
+e:\Document\rust\rustLearn\learn\ch2\guessing_game_2\target\rls\debug\deps\getrandom-4120205e888573b9.d: C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\lib.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\error.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\util.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\error_impls.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\windows.rs
+
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\lib.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\error.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\util.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\error_impls.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\getrandom-0.2.4\src\windows.rs:
