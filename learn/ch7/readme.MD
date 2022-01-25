@@ -11,3 +11,13 @@ Crates ：一个模块的树形结构，它形成了库或二进制项目。
 的。
 ```
 
+#使用父模块将两个具有相同名称的类型引入同一作用域
+```
+use std::fmt; use std::io; fn function1() -> fmt::Result { // --snip-- }fn function2() -> io::Result<()> { // --snip-- }
+
+use std::fmt::Result; use std::io::Result as IoResult; fn function1() -> Result { // --snip-- }fn function2() -> IoResult<()> { // --snip-- }
+```
+
+use std::io; use std::io::Write;
+等于下面
+use std::io::{self, Write};
