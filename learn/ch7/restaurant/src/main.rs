@@ -1,6 +1,6 @@
 // use crate::front_of_house;
-// pub mod front_of_house;
-// pub use crate::front_of_house::hosting;
+pub mod front_of_house;
+pub use crate::front_of_house::hosting;
 // pub mod lib;
 // pub use crate::lib::eat_at_restaurant;
 
@@ -9,6 +9,6 @@ fn main() {
     let mut map = HashMap::new();
     map.insert(1, 2);
     // lib::eat_at_restaurant();
-    // hosting::add_to_waitlist();
+    hosting::add_to_waitlist();
     println!("hello world");
 }

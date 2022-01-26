@@ -1,0 +1,1 @@
+/home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch10/trait/target/debug/flag: /home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch10/trait/src/lib.rs /home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch10/trait/src/main.rs
