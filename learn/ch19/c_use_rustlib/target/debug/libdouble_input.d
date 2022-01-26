@@ -1,0 +1,1 @@
+/home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch19/c_use_rustlib/target/debug/libdouble_input.a: /home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch19/c_use_rustlib/src/lib.rs
