@@ -14,5 +14,5 @@ fn main() {
         thread::sleep(Duration::from_millis(1));
     }
     //  handle.join() 调用会等待直到新建线程执行完毕。
-    handle.join().unwrap();
+         handle.join().unwrap();
 }
