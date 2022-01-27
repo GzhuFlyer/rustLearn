@@ -1,0 +1,10 @@
+/home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch2/guessing_game_2/target/rls/debug/deps/rand_core-df6d2e36033777c9.rmeta: /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/lib.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/block.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/error.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/impls.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/le.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/os.rs
+
+/home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch2/guessing_game_2/target/rls/debug/deps/rand_core-df6d2e36033777c9.d: /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/lib.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/block.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/error.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/impls.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/le.rs /home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/os.rs
+
+/home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/lib.rs:
+/home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/block.rs:
+/home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/error.rs:
+/home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/impls.rs:
+/home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/le.rs:
+/home/frank/.cargo/registry/src/mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b/rand_core-0.6.3/src/os.rs:

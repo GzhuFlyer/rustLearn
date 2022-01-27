@@ -1,5 +1,7 @@
 fn main() {
     println!("Hello, world!");
+    let a = Student { apple: 12 };
+    println!("a={}", a.apple);
 }
 
 pub trait EatApplePlus {
