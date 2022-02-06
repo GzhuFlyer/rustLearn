@@ -1,7 +1,11 @@
+use ferris_says::say; // from the previous step
+use std::io::{stdout, BufWriter};
+
 fn main() {
-    println!("fdf");
-    let i = 3 + 3;
-    println!("3+3={}", i);
-    let j = 3123 * 32323;
-    println!("{}", j);
+    let stdout = stdout();
+    let message = String::from("Hello fellow Rustaceans!");
+    let width = message.chars().count();
+
+    let mut writer = BufWriter::new(stdout.lock());
+    say(message.as_bytes(), width, &mut writer).unwrap();
 }
