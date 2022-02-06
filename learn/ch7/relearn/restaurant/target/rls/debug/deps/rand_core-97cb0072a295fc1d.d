@@ -1,0 +1,9 @@
+e:\Document\rust\rustLearn\learn\ch7\relearn\restaurant\target\rls\debug\deps\rand_core-97cb0072a295fc1d.rmeta: C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\lib.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\error.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\block.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\impls.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\le.rs
+
+e:\Document\rust\rustLearn\learn\ch7\relearn\restaurant\target\rls\debug\deps\rand_core-97cb0072a295fc1d.d: C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\lib.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\error.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\block.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\impls.rs C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\le.rs
+
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\lib.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\error.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\block.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\impls.rs:
+C:\Users\gzhu_flyer\.cargo\registry\src\mirrors.sjtug.sjtu.edu.cn-7a04d2510079875b\rand_core-0.4.2\src\le.rs:

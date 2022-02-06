@@ -1,6 +1,7 @@
 fn main() {
     println!("Hello, world!");
     strings_clone_fn();
+    dangle();
 }
 
 // 。在 let s2 = s1 之后，
@@ -17,4 +18,13 @@ fn strings_clone_fn() {
     let s1 = String::from("hello");
     let s2 = s1.clone();
     println!("s1 = {}, s2 = {}", s1, s2);
+}
+// rust会避免悬垂引用，下面代码会出错
+// fn dangle() -> &String {
+//     let s = String::from("hello");
+//     &s
+// }
+fn dangle() -> String {
+    let s = String::from("hello");
+    s
 }
