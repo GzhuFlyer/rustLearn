@@ -1,1 +1,0 @@
-/home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch19/c_use_rustlib/target/debug/libc_use_rustlib.rlib: /home/frank/workspace/beikunyun/burstFs/rustDevlop/rustLearn/learn/ch19/c_use_rustlib/src/lib.rs
