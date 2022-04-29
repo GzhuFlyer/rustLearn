@@ -1,2 +1,2 @@
-gcc -shared -fPIC -o libext.so extern.c
+gcc -shared -fPIC extern.c -o libext.so 
 sudo cp libext.so /usr/lib/.
