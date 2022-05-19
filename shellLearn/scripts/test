@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+set -e
+set -o pipefail
+# echo $(dirname "${BASH_SOURCE[0]}")
+# 进入到执行shell脚本文件所在的目录
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+source "$BASEDIR/lib/mod.sh"
+
+# https://blog.csdn.net/sinat_35930259/article/details/78205752
+# 如果shell带的第一个参数长度为0则为真
+if [ -z "$1" ]; then
+    cat <<EOF
+Usage: drgadm <command>
+Drogue IoT cloud admin tool
+
+Commands:
+    deploy       Deploy Drogue IoT to your cluster
+    examples     Show some examples to try
+
+EOF
+    exit 1
+fi
+
+# Remember and eat up first argument
+cmd=$1
+#https://blog.csdn.net/qq_42230338/article/details/117398080
+# 将脚本的第一个参数左移
+shift
+
+# Test if this is a valid command
+# 打印当前目录
+# 测试文件是否存在，并且可执行
+# echo "$BASEDIR/cmd/${cmd}.sh"
+test -x "$BASEDIR/cmd/${cmd}.sh" || die "Unknown command: $cmd"
+
+
+# set up logging
+LOG=$(mktemp /tmp/drgadm-XXXXXXX.log)
+
+#
+# Called when we are exiting
+#
+function on_exit() {
+    rv=$?
+    if [[ $rv != 0 && (! "$DEBUG") && -s "$LOG" ]]; then
+        # if there was a failure, dump the full log
+        echo 1>&2
+        echo "Command failed:" 1>&2
+        echo "----------------------" 1>&2
+        cat "$LOG" 1>&2
+        echo "----------------------" 1>&2
+    fi
+    # clean up the log
+    rm "$LOG"
+    # return with the original return code
+    exit $rv
+}
+
+# catch when we exit
+trap on_exit EXIT
+
+# run the actual command
+if [[ "$DEBUG" ]]; then
+    ( source "$BASEDIR/cmd/${cmd}.sh" ) 3>&1
+else
+    echo "$BASEDIR/cmd/${cmd}.sh"
+    ( source "$BASEDIR/cmd/${cmd}.sh" ) 3>&1 &>"$LOG"
+fi
