@@ -1,1 +1,0 @@
-E:\Document\rust\rustLearn\learn\ch7\relearn\restaurant\target\debug\restaurant.exe: E:\Document\rust\rustLearn\learn\ch7\relearn\restaurant\src\lib.rs E:\Document\rust\rustLearn\learn\ch7\relearn\restaurant\src\main.rs
