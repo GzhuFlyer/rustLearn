@@ -1,0 +1,982 @@
+17601 execve("/opt/rh/devtoolset-9/root/usr/bin/gcc", ["gcc", "-E", "-I./inc", "test.c", "-o", "test.i"], 0x7fff46a7d200 /* 46 vars */) = 0
+17601 brk(NULL)                         = 0x1d8c000
+17601 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec6bf9000
+17601 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/llvm-toolset-7/root/usr/lib64/tls", {st_mode=S_IFDIR|0555, st_size=6, ...}) = 0
+17601 open("/opt/rh/llvm-toolset-7/root/usr/lib64/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/llvm-toolset-7/root/usr/lib64/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/llvm-toolset-7/root/usr/lib64", {st_mode=S_IFDIR|0555, st_size=8192, ...}) = 0
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64/tls/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64/tls", {st_mode=S_IFDIR|0555, st_size=6, ...}) = 0
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/tls/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/tls", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/home/fzw/workspace/bky/burstfs/target/debug/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/home/fzw/workspace/bky/burstfs/target/debug/tls/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/home/fzw/workspace/bky/burstfs/target/debug/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/home/fzw/workspace/bky/burstfs/target/debug/tls", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/home/fzw/workspace/bky/burstfs/target/debug/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/home/fzw/workspace/bky/burstfs/target/debug/x86_64", 0x7ffeb2e346e0) = -1 ENOENT (No such file or directory)
+17601 open("/home/fzw/workspace/bky/burstfs/target/debug/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 stat("/home/fzw/workspace/bky/burstfs/target/debug", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17601 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+17601 fstat(3, {st_mode=S_IFREG|0644, st_size=129074, ...}) = 0
+17601 mmap(NULL, 129074, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6ec6bd9000
+17601 close(3)                          = 0
+17601 open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+17601 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PS\0\0\0\0\0\0@\0\0\0\0\0\0\0pP\21\0\0\0\0\0\0\0\0\0@\08\0\7\0@\0#\0\"\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004\10\20\0\0\0\0\0004\10\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`\r\20\0\0\0\0\0`\r0\0\0\0\0\0`\r0\0\0\0\0\0\204\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\r\20\0\0\0\0\0\200\r0\0\0\0\0\0\200\r0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\250\206\17\0\0\0\0\0\250\206\17\0\0\0\0\0\250\206\17\0\0\0\0\0,\22\0\0\0\0\0\0,\22\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0`\r\20\0\0\0\0\0`\r0\0\0\0\0\0`\r0\0\0\0\0\0\240\2\0\0\0\0\0\0\240\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0v\25`N\257J\6\215\372\345\10TD\321\\\r\356\223\337\275\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0"..., 832) = 832
+17601 fstat(3, {st_mode=S_IFREG|0755, st_size=1136944, ...}) = 0
+17601 mmap(NULL, 3150136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6ec66d7000
+17601 mprotect(0x7f6ec67d8000, 2093056, PROT_NONE) = 0
+17601 mmap(0x7f6ec69d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x100000) = 0x7f6ec69d7000
+17601 close(3)                          = 0
+17601 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 open("/home/fzw/workspace/bky/burstfs/target/debug/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17601 open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+17601 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`&\2\0\0\0\0\0@\0\0\0\0\0\0\0p\325 \0\0\0\0\0\0\0\0\0@\08\0\n\0@\0K\0J\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`\354\30\0\0\0\0\0`\354\30\0\0\0\0\0`\354\30\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0203\34\0\0\0\0\0\0203\34\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\3606\34\0\0\0\0\0\3606<\0\0\0\0\0\3606<\0\0\0\0\0\260Q\0\0\0\0\0\0\20\233\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0`k\34\0\0\0\0\0`k<\0\0\0\0\0`k<\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0\3606\34\0\0\0\0\0\3606<\0\0\0\0\0\3606<\0\0\0\0\0\20\0\0\0\0\0\0\0\240\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0P\345td\4\0\0\0|\354\30\0\0\0\0\0|\354\30\0\0\0\0\0|\354\30\0\0\0\0\0\374j\0\0\0\0\0\0\374j\0\0\0\0\0\0\4\0\0\0\0\0\0\0"..., 832) = 832
+17601 fstat(3, {st_mode=S_IFREG|0755, st_size=2156592, ...}) = 0
+17601 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec6bd8000
+17601 mmap(NULL, 3985920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6ec6309000
+17601 mprotect(0x7f6ec64cd000, 2093056, PROT_NONE) = 0
+17601 mmap(0x7f6ec66cc000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c3000) = 0x7f6ec66cc000
+17601 mmap(0x7f6ec66d2000, 16896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6ec66d2000
+17601 close(3)                          = 0
+17601 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec6bd6000
+17601 arch_prctl(ARCH_SET_FS, 0x7f6ec6bd6740) = 0
+17601 access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+17601 access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+17601 mprotect(0x7f6ec66cc000, 16384, PROT_READ) = 0
+17601 mprotect(0x7f6ec69d7000, 4096, PROT_READ) = 0
+17601 mprotect(0x529000, 8192, PROT_READ) = 0
+17601 mprotect(0x7f6ec6bfa000, 4096, PROT_READ) = 0
+17601 munmap(0x7f6ec6bd9000, 129074)    = 0
+17601 brk(NULL)                         = 0x1d8c000
+17601 brk(0x1dad000)                    = 0x1dad000
+17601 brk(NULL)                         = 0x1dad000
+17601 brk(NULL)                         = 0x1dad000
+17601 ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+17601 ioctl(0, TIOCGWINSZ, {ws_row=26, ws_col=119, ws_xpixel=0, ws_ypixel=0}) = 0
+17601 brk(NULL)                         = 0x1dad000
+17601 brk(0x1dd3000)                    = 0x1dd3000
+17601 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+17601 fstat(3, {st_mode=S_IFREG|0644, st_size=106176928, ...}) = 0
+17601 mmap(NULL, 106176928, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6ebfdc6000
+17601 close(3)                          = 0
+17601 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+17601 fstat(3, {st_mode=S_IFREG|0644, st_size=2502, ...}) = 0
+17601 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec6bf8000
+17601 read(3, "# Locale name alias data base.\n# Copyright (C) 1996-2001,2003,2007 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General Public License as published by\n# the Free Software Foundation; either version 2, or (at your option)\n# any later version.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR "..., 4096) = 2502
+17601 read(3, "", 4096)                 = 0
+17601 close(3)                          = 0
+17601 munmap(0x7f6ec6bf8000, 4096)      = 0
+17601 open("/opt/rh/devtoolset-9/root/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/share/locale/en_US.utf8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/share/locale/en_US/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/share/locale/en.UTF-8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/share/locale/en.utf8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17601 open("/opt/rh/devtoolset-9/root/usr/share/locale/en/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17601 access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+17601 ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+17601 ioctl(0, TIOCGWINSZ, {ws_row=26, ws_col=119, ws_xpixel=0, ws_ypixel=0}) = 0
+17601 ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+17601 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17601 rt_sigaction(SIGINT, {sa_handler=0x40bcef, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_IGN, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, 8) = 0
+17601 rt_sigaction(SIGHUP, {sa_handler=SIG_IGN, sa_mask=[HUP], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17601 rt_sigaction(SIGHUP, {sa_handler=0x40bcef, sa_mask=[HUP], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_IGN, sa_mask=[HUP], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, 8) = 0
+17601 rt_sigaction(SIGTERM, {sa_handler=SIG_IGN, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17601 rt_sigaction(SIGTERM, {sa_handler=0x40bcef, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_IGN, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, 8) = 0
+17601 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17601 rt_sigaction(SIGPIPE, {sa_handler=0x40bcef, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, 8) = 0
+17601 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6ec633f400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17601 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+17601 setrlimit(RLIMIT_STACK, {rlim_cur=65536*1024, rlim_max=RLIM64_INFINITY}) = 0
+17601 access("/home/fzw/workspace/tools/node-v14.18.1-linux-x64/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/home/fzw/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/home/fzw/workspace/tools/node-v14.18.1-linux-x64/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/home/fzw/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/remote-cli/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/llvm-toolset-7/root/usr/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/llvm-toolset-7/root/usr/sbin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/devtoolset-9/root/usr/bin/gcc", X_OK) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=1254128, ...}) = 0
+17601 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17601 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root/usr/bin", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=1254128, ...}) = 0
+17601 access("/home/fzw/workspace/tools/node-v14.18.1-linux-x64/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/home/fzw/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/home/fzw/workspace/tools/node-v14.18.1-linux-x64/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/home/fzw/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/remote-cli/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/llvm-toolset-7/root/usr/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/llvm-toolset-7/root/usr/sbin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/devtoolset-9/root/usr/bin/gcc", X_OK) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=1254128, ...}) = 0
+17601 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17601 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root/usr/bin", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+17601 lstat("/opt/rh/devtoolset-9/root/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=1254128, ...}) = 0
+17601 access("test.c", F_OK)            = 0
+17601 getcwd("/home/fzw/workspace/bky/use_rustlen/rustLearn/learn_network/wrap_syscall/asm_demo/cprocess", 4096) = 91
+17601 lstat("/home/fzw/workspace/bky/use_rustlen/rustLearn/learn_network/wrap_syscall/asm_demo/cprocess/test.c", {st_mode=S_IFREG|0664, st_size=186, ...}) = 0
+17601 getcwd("/home/fzw/workspace/bky/use_rustlen/rustLearn/learn_network/wrap_syscall/asm_demo/cprocess", 4096) = 91
+17601 lstat("/home/fzw/workspace/bky/use_rustlen/rustLearn/learn_network/wrap_syscall/asm_demo/cprocess/test.i", {st_mode=S_IFREG|0664, st_size=17195, ...}) = 0
+17601 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/", X_OK) = 0
+17601 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/", X_OK) = 0
+17601 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/specs", R_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/9/specs", R_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/lib/specs", R_OK) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/specs", R_OK) = -1 ENOENT (No such file or directory)
+17601 stat("/etc/sysconfig/64bit_strstr_via_64bit_strstr_sse2_unaligned", 0x7ffeb2e35230) = -1 ENOENT (No such file or directory)
+17601 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/", X_OK) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/cc1", {st_mode=S_IFREG|0755, st_size=27603168, ...}) = 0
+17601 access("/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/cc1", X_OK) = 0
+17601 pipe2([3, 4], O_CLOEXEC)          = 0
+17601 vfork( <unfinished ...>
+17602 close(3)                          = 0
+17602 execve("/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/cc1", ["/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/cc1", "-E", "-quiet", "-I", "./inc", "test.c", "-o", "test.i", "-mtune=generic", "-march=x86-64"], 0x1dbb9c0 /* 48 vars */ <unfinished ...>
+17601 <... vfork resumed>)              = 17602
+17601 close(4)                          = 0
+17601 read(3, "", 16)                   = 0
+17601 close(3 <unfinished ...>
+17602 <... execve resumed>)             = 0
+17601 <... close resumed>)              = 0
+17601 wait4(17602,  <unfinished ...>
+17602 brk(NULL)                         = 0x35ba000
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24307a7000
+17602 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/llvm-toolset-7/root/usr/lib64/tls", {st_mode=S_IFDIR|0555, st_size=6, ...}) = 0
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/llvm-toolset-7/root/usr/lib64/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/llvm-toolset-7/root/usr/lib64", {st_mode=S_IFDIR|0555, st_size=8192, ...}) = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64/tls/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64/tls", {st_mode=S_IFDIR|0555, st_size=6, ...}) = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/tls/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/tls", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/tls", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib64/dyninst", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst/tls", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/dyninst/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/dyninst", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/home/fzw/workspace/bky/burstfs/target/debug/tls/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/home/fzw/workspace/bky/burstfs/target/debug/tls", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/home/fzw/workspace/bky/burstfs/target/debug/x86_64", 0x7ffc1e6c0000) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 stat("/home/fzw/workspace/bky/burstfs/target/debug", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+17602 fstat(3, {st_mode=S_IFREG|0644, st_size=129074, ...}) = 0
+17602 mmap(NULL, 129074, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2430787000
+17602 close(3)                          = 0
+17602 open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+17602 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0000C\0\0\0\0\0\0\0\0\0\0@\08\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304\37\0\0\0\0\0\0\304\37\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\08-\0\0\0\0\0\08- \0\0\0\0\08- \0\0\0\0\0`\3\0\0\0\0\0\0\370\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h-\0\0\0\0\0\0h- \0\0\0\0\0h- \0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\0\32\0\0\0\0\0\0\0\32\0\0\0\0\0\0\0\32\0\0\0\0\0\0\274\0\0\0\0\0\0\0\274\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\08-\0\0\0\0\0\08- \0\0\0\0\08- \0\0\0\0\0\310\2\0\0\0\0\0\0\310\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\177.\234\260v\235~W\275f\233HZt\2657\266:W\304\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0"..., 832) = 832
+17602 fstat(3, {st_mode=S_IFREG|0755, st_size=19248, ...}) = 0
+17602 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2430383000
+17602 mprotect(0x7f2430385000, 2097152, PROT_NONE) = 0
+17602 mmap(0x7f2430585000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f2430585000
+17602 close(3)                          = 0
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libmpc.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libmpc.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libmpc.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/libmpc.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/libmpc.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libmpc.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/libmpc.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/lib64/libmpc.so.3", O_RDONLY|O_CLOEXEC) = 3
+17602 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@L\0\0\0\0\0\0@\0\0\0\0\0\0\0\220~\1\0\0\0\0\0\0\0\0\0@\08\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274g\1\0\0\0\0\0\274g\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210m\1\0\0\0\0\0\210m!\0\0\0\0\0\210m!\0\0\0\0\0p\10\0\0\0\0\0\0x\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250m\1\0\0\0\0\0\250m!\0\0\0\0\0\250m!\0\0\0\0\0\0\2\0\0\0\0\0\0\0\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\210F\1\0\0\0\0\0\210F\1\0\0\0\0\0\210F\1\0\0\0\0\0\334\3\0\0\0\0\0\0\334\3\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0\210m\1\0\0\0\0\0\210m!\0\0\0\0\0\210m!\0\0\0\0\0x\2\0\0\0\0\0\0x\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\206\317\327T\263\266HD\321[\347\222\3\362l#\354\204\315\32\0\0\0\0a\0\0\0\225\0\0\0\20\0\0\0\n\0\0\0"..., 832) = 832
+17602 fstat(3, {st_mode=S_IFREG|0755, st_size=99664, ...}) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430786000
+17602 mmap(NULL, 2192896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f243016b000
+17602 mprotect(0x7f2430182000, 2093056, PROT_NONE) = 0
+17602 mmap(0x7f2430381000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f2430381000
+17602 close(3)                          = 0
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/lib64/libmpfr.so.4", O_RDONLY|O_CLOEXEC) = 3
+17602 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\252\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\273\5\0\0\0\0\0\0\0\0\0@\08\0\10\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\205\5\0\0\0\0\0t\205\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0 \214\5\0\0\0\0\0 \214%\0\0\0\0\0 \214%\0\0\0\0\0p\34\0\0\0\0\0\0\340\34\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340\234\5\0\0\0\0\0\340\234%\0\0\0\0\0\340\234%\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0\2\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\2\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0 \214\5\0\0\0\0\0 \214%\0\0\0\0\0 \214%\0\0\0\0\0\340\0\0\0\0\0\0\0\350\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0P\345td\4\0\0\0\360'\5\0\0\0\0\0\360'\5\0\0\0\0\0\360'\5\0\0\0\0\0\f\f\0\0\0\0\0\0\f\f\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0 \214\5\0\0\0\0\0 \214%\0\0\0\0\0 \214%\0\0\0\0\0\340\23\0\0\0\0\0\0\340\23\0\0\0\0\0\0\1\0\0\0\0\0\0\0"..., 832) = 832
+17602 fstat(3, {st_mode=S_IFREG|0755, st_size=377424, ...}) = 0
+17602 mmap(NULL, 2468096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f242ff10000
+17602 mprotect(0x7f242ff69000, 2093056, PROT_NONE) = 0
+17602 mmap(0x7f2430168000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x58000) = 0x7f2430168000
+17602 close(3)                          = 0
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/lib64/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 3
+17602 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\304\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\211\7\0\0\0\0\0\0\0\0\0@\08\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\324R\7\0\0\0\0\0\324R\7\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310]\7\0\0\0\0\0\310]'\0\0\0\0\0\310]'\0\0\0\0\0\220\22\0\0\0\0\0\0\330\22\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340a\7\0\0\0\0\0\340a'\0\0\0\0\0\340a'\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0`\306\6\0\0\0\0\0`\306\6\0\0\0\0\0`\306\6\0\0\0\0\0\214\22\0\0\0\0\0\0\214\22\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0\310]\7\0\0\0\0\0\310]'\0\0\0\0\0\310]'\0\0\0\0\08\22\0\0\0\0\0\08\22\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\260\f3(\17\3365\365y\214\274\365\373\255j\213\3627\345\"\0\0\0\0\t\2\0\0,\0\0\0@\0\0\0\f\0\0\0"..., 832) = 832
+17602 fstat(3, {st_mode=S_IFREG|0755, st_size=495712, ...}) = 0
+17602 mmap(NULL, 2584736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f242fc98000
+17602 mprotect(0x7f242fd0e000, 2093056, PROT_NONE) = 0
+17602 mmap(0x7f242ff0d000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x75000) = 0x7f242ff0d000
+17602 close(3)                          = 0
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+17602 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P!\0\0\0\0\0\0@\0\0\0\0\0\0\0000Y\1\0\0\0\0\0\0\0\0\0@\08\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234E\1\0\0\0\0\0\234E\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(K\1\0\0\0\0\0(K!\0\0\0\0\0(K!\0\0\0\0\08\5\0\0\0\0\0\0@\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\08L\1\0\0\0\0\08L!\0\0\0\0\08L!\0\0\0\0\0\20\2\0\0\0\0\0\0\20\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\340*\1\0\0\0\0\0\340*\1\0\0\0\0\0\340*\1\0\0\0\0\0\244\3\0\0\0\0\0\0\244\3\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0(K\1\0\0\0\0\0(K!\0\0\0\0\0(K!\0\0\0\0\0\330\4\0\0\0\0\0\0\330\4\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\346\2349u\26C1\337\204\364\350\225\\\303\367\240\203k\5\320\0\0\0\0C\0\0\0\30\0\0\0\10\0\0\0\t\0\0\0"..., 832) = 832
+17602 fstat(3, {st_mode=S_IFREG|0755, st_size=90160, ...}) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430785000
+17602 mmap(NULL, 2183272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f242fa82000
+17602 mprotect(0x7f242fa97000, 2093056, PROT_NONE) = 0
+17602 mmap(0x7f242fc96000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f242fc96000
+17602 close(3)                          = 0
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+17602 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PS\0\0\0\0\0\0@\0\0\0\0\0\0\0pP\21\0\0\0\0\0\0\0\0\0@\08\0\7\0@\0#\0\"\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004\10\20\0\0\0\0\0004\10\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`\r\20\0\0\0\0\0`\r0\0\0\0\0\0`\r0\0\0\0\0\0\204\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\r\20\0\0\0\0\0\200\r0\0\0\0\0\0\200\r0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\250\206\17\0\0\0\0\0\250\206\17\0\0\0\0\0\250\206\17\0\0\0\0\0,\22\0\0\0\0\0\0,\22\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0`\r\20\0\0\0\0\0`\r0\0\0\0\0\0`\r0\0\0\0\0\0\240\2\0\0\0\0\0\0\240\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0v\25`N\257J\6\215\372\345\10TD\321\\\r\356\223\337\275\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0"..., 832) = 832
+17602 fstat(3, {st_mode=S_IFREG|0755, st_size=1136944, ...}) = 0
+17602 mmap(NULL, 3150136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f242f780000
+17602 mprotect(0x7f242f881000, 2093056, PROT_NONE) = 0
+17602 mmap(0x7f242fa80000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x100000) = 0x7f242fa80000
+17602 close(3)                          = 0
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/llvm-toolset-7/root/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib64/dyninst/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/home/fzw/workspace/bky/burstfs/target/debug/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17602 open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+17602 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`&\2\0\0\0\0\0@\0\0\0\0\0\0\0p\325 \0\0\0\0\0\0\0\0\0@\08\0\n\0@\0K\0J\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`\354\30\0\0\0\0\0`\354\30\0\0\0\0\0`\354\30\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0203\34\0\0\0\0\0\0203\34\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\3606\34\0\0\0\0\0\3606<\0\0\0\0\0\3606<\0\0\0\0\0\260Q\0\0\0\0\0\0\20\233\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0`k\34\0\0\0\0\0`k<\0\0\0\0\0`k<\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0\3606\34\0\0\0\0\0\3606<\0\0\0\0\0\3606<\0\0\0\0\0\20\0\0\0\0\0\0\0\240\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0P\345td\4\0\0\0|\354\30\0\0\0\0\0|\354\30\0\0\0\0\0|\354\30\0\0\0\0\0\374j\0\0\0\0\0\0\374j\0\0\0\0\0\0\4\0\0\0\0\0\0\0"..., 832) = 832
+17602 fstat(3, {st_mode=S_IFREG|0755, st_size=2156592, ...}) = 0
+17602 mmap(NULL, 3985920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f242f3b2000
+17602 mprotect(0x7f242f576000, 2093056, PROT_NONE) = 0
+17602 mmap(0x7f242f775000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c3000) = 0x7f242f775000
+17602 mmap(0x7f242f77b000, 16896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f242f77b000
+17602 close(3)                          = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430784000
+17602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430782000
+17602 arch_prctl(ARCH_SET_FS, 0x7f2430782840) = 0
+17602 access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+17602 access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+17602 mprotect(0x7f242f775000, 16384, PROT_READ) = 0
+17602 mprotect(0x7f242fa80000, 4096, PROT_READ) = 0
+17602 mprotect(0x7f242fc96000, 4096, PROT_READ) = 0
+17602 mprotect(0x7f242ff0d000, 8192, PROT_READ) = 0
+17602 mprotect(0x7f2430168000, 8192, PROT_READ) = 0
+17602 mprotect(0x7f2430381000, 4096, PROT_READ) = 0
+17602 mprotect(0x7f2430585000, 4096, PROT_READ) = 0
+17602 mprotect(0x1e0f000, 8192, PROT_READ) = 0
+17602 mprotect(0x7f24307a8000, 4096, PROT_READ) = 0
+17602 munmap(0x7f2430787000, 129074)    = 0
+17602 brk(NULL)                         = 0x35ba000
+17602 brk(0x35db000)                    = 0x35db000
+17602 brk(NULL)                         = 0x35db000
+17602 getrlimit(RLIMIT_STACK, {rlim_cur=65536*1024, rlim_max=RLIM64_INFINITY}) = 0
+17602 brk(NULL)                         = 0x35db000
+17602 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+17602 fstat(3, {st_mode=S_IFREG|0644, st_size=106176928, ...}) = 0
+17602 mmap(NULL, 106176928, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2428e6f000
+17602 close(3)                          = 0
+17602 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+17602 fstat(3, {st_mode=S_IFREG|0644, st_size=2502, ...}) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24307a6000
+17602 read(3, "# Locale name alias data base.\n# Copyright (C) 1996-2001,2003,2007 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General Public License as published by\n# the Free Software Foundation; either version 2, or (at your option)\n# any later version.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR "..., 4096) = 2502
+17602 read(3, "", 4096)                 = 0
+17602 close(3)                          = 0
+17602 munmap(0x7f24307a6000, 4096)      = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/share/locale/en_US.utf8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/share/locale/en_US/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/share/locale/en.UTF-8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/share/locale/en.utf8/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/share/locale/en/LC_MESSAGES/gcc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17602 access("/etc/sysconfig/strcasecmp-nonascii", F_OK) = -1 ENOENT (No such file or directory)
+17602 ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+17602 ioctl(0, TIOCGWINSZ, {ws_row=26, ws_col=119, ws_xpixel=0, ws_ypixel=0}) = 0
+17602 rt_sigaction(SIGSEGV, {sa_handler=0x850457, sa_mask=[SEGV], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f242f3e8400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17602 rt_sigaction(SIGILL, {sa_handler=0x850457, sa_mask=[ILL], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f242f3e8400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17602 rt_sigaction(SIGBUS, {sa_handler=0x850457, sa_mask=[BUS], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f242f3e8400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17602 rt_sigaction(SIGABRT, {sa_handler=0x850457, sa_mask=[ABRT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f242f3e8400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17602 rt_sigaction(SIGFPE, {sa_handler=0x850457, sa_mask=[FPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f242f3e8400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24307a6000
+17602 mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430761000
+17602 brk(NULL)                         = 0x35db000
+17602 brk(0x35fe000)                    = 0x35fe000
+17602 mmap(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2428c6f000
+17602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24307a4000
+17602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24307a2000
+17602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f24307a0000
+17602 mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f243079c000
+17602 open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+17602 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f243079b000
+17602 read(3, "MemTotal:       32510644 kB\nMemFree:         8686828 kB\nMemAvailable:   22182016 kB\nBuffers:              20 kB\nCached:         13045296 kB\nSwapCached:            0 kB\nActive:         18683748 kB\nInactive:        2746420 kB\nActive(anon):    8320944 kB\nInactive(anon):   107148 kB\nActive(file):   10362804 kB\nInactive(file):  2639272 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:               152 kB\nWriteback:             0 kB\nAnonPage"..., 1024) = 1024
+17602 close(3)                          = 0
+17602 munmap(0x7f243079b000, 4096)      = 0
+17602 getrlimit(RLIMIT_AS, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+17602 open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+17602 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f243079b000
+17602 read(3, "MemTotal:       32510644 kB\nMemFree:         8686828 kB\nMemAvailable:   22182016 kB\nBuffers:              20 kB\nCached:         13045296 kB\nSwapCached:            0 kB\nActive:         18683748 kB\nInactive:        2746420 kB\nActive(anon):    8320944 kB\nInactive(anon):   107148 kB\nActive(file):   10362804 kB\nInactive(file):  2639272 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:               152 kB\nWriteback:             0 kB\nAnonPage"..., 1024) = 1024
+17602 close(3)                          = 0
+17602 munmap(0x7f243079b000, 4096)      = 0
+17602 getrlimit(RLIMIT_AS, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+17602 getrlimit(RLIMIT_RSS, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+17602 open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+17602 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f243079b000
+17602 read(3, "MemTotal:       32510644 kB\nMemFree:         8686828 kB\nMemAvailable:   22182016 kB\nBuffers:              20 kB\nCached:         13045296 kB\nSwapCached:            0 kB\nActive:         18683748 kB\nInactive:        2746420 kB\nActive(anon):    8320944 kB\nInactive(anon):   107148 kB\nActive(file):   10362804 kB\nInactive(file):  2639272 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:               152 kB\nWriteback:             0 kB\nAnonPage"..., 1024) = 1024
+17602 close(3)                          = 0
+17602 munmap(0x7f243079b000, 4096)      = 0
+17602 getrlimit(RLIMIT_AS, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+17602 brk(NULL)                         = 0x35fe000
+17602 brk(0x3626000)                    = 0x3626000
+17602 ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+17602 brk(NULL)                         = 0x3626000
+17602 brk(0x3647000)                    = 0x3647000
+17602 access("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/", X_OK) = 0
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 stat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 stat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include-fixed", 0x7ffc1e6c1610) = -1 ENOENT (No such file or directory)
+17602 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/include", 0x7ffc1e6c1610) = -1 ENOENT (No such file or directory)
+17602 stat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 stat("./inc", {st_mode=S_IFDIR|0775, st_size=38, ...}) = 0
+17602 open("test.i", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+17602 open("test.c", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0664, st_size=186, ...}) = 0
+17602 read(4, "// test.c\n#include <stdio.h>\n#include \"mymath.h\"// \350\207\252\345\256\232\344\271\211\345\244\264\346\226\207\344\273\266\nint main(){\n    int a = 2;\n    int b = 3;\n    int sum = add(a, b); \n    printf(\"a=%d, b=%d, a+b=%d\\n\", a, b, sum);\n}", 186) = 186
+17602 close(4)                          = 0
+17602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f243079a000
+17602 fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+17602 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430799000
+17602 open("./inc/stdc-predef.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdc-predef.h", 0x7ffc1e6c0560) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdc-predef.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/stdc-predef.h", 0x7ffc1e6c0560) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/stdc-predef.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/stdc-predef.h", 0x7ffc1e6c0560) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/stdc-predef.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/stdc-predef.h", {st_mode=S_IFREG|0644, st_size=1629, ...}) = 0
+17602 open("/usr/include/stdc-predef.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=1629, ...}) = 0
+17602 read(4, "/* Copyright (C) 1991-2012 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   ME"..., 1629) = 1629
+17602 close(4)                          = 0
+17602 open("./inc/stdio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdio.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/stdio.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/stdio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/stdio.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/stdio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/stdio.h", {st_mode=S_IFREG|0644, st_size=31641, ...}) = 0
+17602 open("/usr/include/stdio.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=31641, ...}) = 0
+17602 read(4, "/* Define ISO C stdio on top of C++ iostreams.\n   Copyright (C) 1991, 1994-2012 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   but WITHOUT ANY"..., 31641) = 31641
+17602 close(4)                          = 0
+17602 open("./inc/features.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/features.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/features.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/features.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/features.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/features.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/features.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/features.h", {st_mode=S_IFREG|0644, st_size=13182, ...}) = 0
+17602 open("/usr/include/features.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=13182, ...}) = 0
+17602 brk(NULL)                         = 0x3647000
+17602 brk(0x366b000)                    = 0x366b000
+17602 read(4, "/* Copyright (C) 1991-2012 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   ME"..., 13182) = 13182
+17602 close(4)                          = 0
+17602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430797000
+17602 open("./inc/sys/cdefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/sys", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/sys/cdefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/sys", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/sys/cdefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/sys", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/sys/cdefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/sys", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/include/sys/cdefs.h", {st_mode=S_IFREG|0644, st_size=14738, ...}) = 0
+17602 open("/usr/include/sys/cdefs.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=14738, ...}) = 0
+17602 read(4, "/* Copyright (C) 1992-2002, 2004, 2005, 2006, 2007, 2009, 2011, 2012\n   Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANT"..., 14738) = 14738
+17602 close(4)                          = 0
+17602 open("./inc/bits/wordsize.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/bits", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/include/bits/wordsize.h", {st_mode=S_IFREG|0644, st_size=327, ...}) = 0
+17602 open("/usr/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=327, ...}) = 0
+17602 read(4, "/* Determine the wordsize from the preprocessor defines.  */\n\n#if defined __x86_64__ && !defined __ILP32__\n# define __WORDSIZE\t64\n#else\n# define __WORDSIZE\t32\n#endif\n\n#ifdef __x86_64__\n# define __WORDSIZE_TIME64_COMPAT32\t1\n/* Both x86-64 and x32 use the 64-bit system call interface.  */\n# define __SYSCALL_WORDSIZE\t\t64\n#endif\n", 327) = 327
+17602 close(4)                          = 0
+17602 open("./inc/gnu/stubs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/gnu", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/gnu/stubs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/gnu", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/gnu/stubs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/gnu", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/gnu/stubs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/gnu", {st_mode=S_IFDIR|0755, st_size=98, ...}) = 0
+17602 lstat("/usr/include/gnu/stubs.h", {st_mode=S_IFREG|0644, st_size=384, ...}) = 0
+17602 open("/usr/include/gnu/stubs.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=384, ...}) = 0
+17602 read(4, "/* This file is automatically generated.\n   This file selects the right generated file of `__stub_FUNCTION' macros\n   based on the architecture being compiled for.  */\n\n\n#if !defined __x86_64__\n# include <gnu/stubs-32.h>\n#endif\n#if defined __x86_64__ && defined __LP64__\n# include <gnu/stubs-64.h>\n#endif\n#if defined __x86_64__ && defined __ILP32__\n# include <gnu/stubs-x32.h>\n#endif\n", 384) = 384
+17602 close(4)                          = 0
+17602 open("./inc/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/gnu", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/gnu", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/gnu", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/gnu", {st_mode=S_IFDIR|0755, st_size=98, ...}) = 0
+17602 lstat("/usr/include/gnu/stubs-64.h", {st_mode=S_IFREG|0644, st_size=604, ...}) = 0
+17602 open("/usr/include/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=604, ...}) = 0
+17602 read(4, "/* This file is automatically generated.\n   It defines a symbol `__stub_FUNCTION' for each function\n   in the C library which is a stub, meaning it will fail\n   every time called, usually setting errno to ENOSYS.  */\n\n#ifdef _LIBC\n #error Applications may not define the macro _LIBC\n#endif\n\n#define __stub_bdflush\n#define __stub_chflags\n#define __stub_fattach\n#define __stub_fchflags\n#define __stub_fdetach\n#define __stub_getmsg\n#define __stub_gtty\n#define __stub_lchmod\n#define __stub_putmsg\n#define __stub_revo"..., 604) = 604
+17602 close(4)                          = 0
+17602 open("./inc/stddef.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stddef.h", {st_mode=S_IFREG|0644, st_size=12959, ...}) = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stddef.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=12959, ...}) = 0
+17602 read(4, "/* Copyright (C) 1989-2019 Free Software Foundation, Inc.\n\nThis file is part of GCC.\n\nGCC is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 3, or (at your option)\nany later version.\n\nGCC is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License fo"..., 12959) = 12959
+17602 close(4)                          = 0
+17602 open("./inc/bits/types.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits/types.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/bits/types.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/bits/types.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/bits", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/include/bits/types.h", {st_mode=S_IFREG|0644, st_size=7729, ...}) = 0
+17602 open("/usr/include/bits/types.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=7729, ...}) = 0
+17602 read(4, "/* bits/types.h -- definitions of __*_t types underlying *_t types.\n   Copyright (C) 2002-2012 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   "..., 7729) = 7729
+17602 close(4)                          = 0
+17602 open("/usr/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=327, ...}) = 0
+17602 read(4, "/* Determine the wordsize from the preprocessor defines.  */\n\n#if defined __x86_64__ && !defined __ILP32__\n# define __WORDSIZE\t64\n#else\n# define __WORDSIZE\t32\n#endif\n\n#ifdef __x86_64__\n# define __WORDSIZE_TIME64_COMPAT32\t1\n/* Both x86-64 and x32 use the 64-bit system call interface.  */\n# define __SYSCALL_WORDSIZE\t\t64\n#endif\n", 327) = 327
+17602 close(4)                          = 0
+17602 open("./inc/bits/typesizes.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits/typesizes.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/bits/typesizes.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/bits/typesizes.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/bits", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/include/bits/typesizes.h", {st_mode=S_IFREG|0644, st_size=3225, ...}) = 0
+17602 open("/usr/include/bits/typesizes.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=3225, ...}) = 0
+17602 read(4, "/* bits/typesizes.h -- underlying types for *_t.  Linux/x86-64 version.\n   Copyright (C) 2012 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   b"..., 3225) = 3225
+17602 close(4)                          = 0
+17602 open("./inc/libio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/libio.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/libio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/libio.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/libio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/libio.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/libio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/libio.h", {st_mode=S_IFREG|0644, st_size=17276, ...}) = 0
+17602 open("/usr/include/libio.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=17276, ...}) = 0
+17602 read(4, "/* Copyright (C) 1991-1995,1997-2007,2009,2011,2012\n   Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n   Written by Per Bothner <bothner@cygnus.com>.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be use"..., 17276) = 17276
+17602 close(4)                          = 0
+17602 open("./inc/_G_config.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/_G_config.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/_G_config.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/_G_config.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/_G_config.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/_G_config.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/_G_config.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/_G_config.h", {st_mode=S_IFREG|0644, st_size=1287, ...}) = 0
+17602 open("/usr/include/_G_config.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=1287, ...}) = 0
+17602 read(4, "/* This file is needed by libio to define various configuration parameters.\n   These are always the same in the GNU C library.  */\n\n#ifndef _G_config_h\n#define _G_config_h 1\n\n/* Define types for libio in terms of the standard internal type names.  */\n\n#include <bits/types.h>\n#define __need_size_t\n#if defined _LIBC || defined _GLIBCPP_USE_WCHAR_T\n# define __need_wchar_t\n#endif\n#define __need_NULL\n#include <stddef.h>\n#define __need_mbstate_t\n#if defined _LIBC || defined _GLIBCPP_USE_WCHAR_T\n# define __need_wi"..., 1287) = 1287
+17602 close(4)                          = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stddef.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=12959, ...}) = 0
+17602 read(4, "/* Copyright (C) 1989-2019 Free Software Foundation, Inc.\n\nThis file is part of GCC.\n\nGCC is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 3, or (at your option)\nany later version.\n\nGCC is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License fo"..., 12959) = 12959
+17602 close(4)                          = 0
+17602 open("./inc/wchar.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/wchar.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/wchar.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/wchar.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/wchar.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/wchar.h", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/wchar.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/wchar.h", {st_mode=S_IFREG|0644, st_size=32119, ...}) = 0
+17602 open("/usr/include/wchar.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=32119, ...}) = 0
+17602 read(4, "/* Copyright (C) 1995-2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the i"..., 32119) = 32119
+17602 close(4)                          = 0
+17602 open("./inc/stdarg.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdarg.h", {st_mode=S_IFREG|0644, st_size=4072, ...}) = 0
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdarg.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=4072, ...}) = 0
+17602 read(4, "/* Copyright (C) 1989-2019 Free Software Foundation, Inc.\n\nThis file is part of GCC.\n\nGCC is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 3, or (at your option)\nany later version.\n\nGCC is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License fo"..., 4072) = 4072
+17602 close(4)                          = 0
+17602 write(3, "# 1 \"test.c\"\n# 1 \"<built-in>\"\n# 1 \"<command-line>\"\n# 31 \"<command-line>\"\n# 1 \"/usr/include/stdc-predef.h\" 1 3 4\n# 32 \"<command-line>\" 2\n# 1 \"test.c\"\n\n# 1 \"/usr/include/stdio.h\" 1 3 4\n# 27 \"/usr/include/stdio.h\" 3 4\n# 1 \"/usr/include/features.h\" 1 3 4\n# 375 \"/usr/include/features.h\" 3 4\n# 1 \"/usr/include/sys/cdefs.h\" 1 3 4\n# 392 \"/usr/include/sys/cdefs.h\" 3 4\n# 1 \"/usr/include/bits/wordsize.h\" 1 3 4\n# 393 \"/usr/include/sys/cdefs.h\" 2 3 4\n# 376 \"/usr/include/features.h\" 2 3 4\n# 399 \"/usr/include/features.h\" 3"..., 4096) = 4096
+17602 open("./inc/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/bits", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/include/bits/stdio_lim.h", {st_mode=S_IFREG|0644, st_size=1373, ...}) = 0
+17602 open("/usr/include/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=1373, ...}) = 0
+17602 read(4, "/* Copyright (C) 1994, 1997, 1998, 1999, 2009 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implie"..., 1373) = 1373
+17602 close(4)                          = 0
+17602 write(3, "/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdarg.h\" 3 4\ntypedef __builtin_va_list __gnuc_va_list;\n# 51 \"/usr/include/libio.h\" 2 3 4\n# 145 \"/usr/include/libio.h\" 3 4\nstruct _IO_jump_t; struct _IO_FILE;\n# 155 \"/usr/include/libio.h\" 3 4\ntypedef void _IO_lock_t;\n\n\n\n\n\nstruct _IO_marker {\n  struct _IO_marker *_next;\n  struct _IO_FILE *_sbuf;\n\n\n\n  int _pos;\n# 178 \"/usr/include/libio.h\" 3 4\n};\n\n\nenum __codecvt_result\n{\n  __codecvt_ok,\n  __codecvt_partial,\n  __codecvt_error,\n  __codecvt_noc"..., 4096) = 4096
+17602 mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2430793000
+17602 write(3, "row__ , __leaf__)) ;\n# 227 \"/usr/include/stdio.h\" 3 4\nextern char *tempnam (const char *__dir, const char *__pfx)\n     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;\n\n\n\n\n\n\n\n\nextern int fclose (FILE *__stream);\n\n\n\n\nextern int fflush (FILE *__stream);\n\n# 252 \"/usr/include/stdio.h\" 3 4\nextern int fflush_unlocked (FILE *__stream);\n# 266 \"/usr/include/stdio.h\" 3 4\n\n\n\n\n\n\nextern FILE *fopen (const char *__restrict __filename,\n      const char *__restrict __modes) ;\n\n\n\n\nextern FILE *freopen"..., 4096) = 4096
+17602 open("./inc/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/local/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/usr/local/include/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/opt", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh", {st_mode=S_IFDIR|0755, st_size=112, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9", {st_mode=S_IFDIR|0555, st_size=32, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root", {st_mode=S_IFDIR|0555, st_size=224, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr", {st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include", {st_mode=S_IFDIR|0755, st_size=45, ...}) = 0
+17602 lstat("/opt/rh/devtoolset-9/root/usr/include/bits", 0x7ffc1e6c02a0) = -1 ENOENT (No such file or directory)
+17602 open("/opt/rh/devtoolset-9/root/usr/include/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=166, ...}) = 0
+17602 lstat("/usr/include", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17602 lstat("/usr/include/bits", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17602 lstat("/usr/include/bits/sys_errlist.h", {st_mode=S_IFREG|0644, st_size=1215, ...}) = 0
+17602 open("/usr/include/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0644, st_size=1215, ...}) = 0
+17602 read(4, "/* Declare sys_errlist and sys_nerr, or don't.  Compatibility (do) version.\n   Copyright (C) 2002, 2012 Free Software Foundation, Inc.\n   This file is part of the GNU C Library.\n\n   The GNU C Library is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.\n\n   The GNU C Library is distributed in the hope that it will be us"..., 1215) = 1215
+17602 close(4)                          = 0
+17602 write(3, "ow__ , __leaf__)) __attribute__ ((__format__ (__scanf__, 2, 0)));\n# 494 \"/usr/include/stdio.h\" 3 4\nextern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ (\"\" \"__isoc99_vfscanf\")\n\n\n\n     __attribute__ ((__format__ (__scanf__, 2, 0))) ;\nextern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ (\"\" \"__isoc99_vscanf\")\n\n     __attribute__ ((__format__ (__scanf__, 1, 0))) ;\nextern int vsscanf (const char *__restrict __s, const char *__restr"..., 4096) = 4096
+17602 open("mymath.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+17602 open("./inc/mymath.h", O_RDONLY|O_NOCTTY) = 4
+17602 fstat(4, {st_mode=S_IFREG|0664, st_size=86, ...}) = 0
+17602 read(4, "#ifndef MYMATH_H\n#define MYMATH_H\nint add(int a, int b);\nint sum(int a, int b);\n#endif", 86) = 86
+17602 close(4)                          = 0
+17602 write(3, "__ ((__nothrow__ , __leaf__)) ;\n# 873 \"/usr/include/stdio.h\" 3 4\nextern FILE *popen (const char *__command, const char *__modes) ;\n\n\n\n\n\nextern int pclose (FILE *__stream);\n\n\n\n\n\nextern char *ctermid (char *__s) __attribute__ ((__nothrow__ , __leaf__));\n# 913 \"/usr/include/stdio.h\" 3 4\nextern void flockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));\n\n\n\nextern int ftrylockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;\n\n\nextern void funlockfile (FILE *__stream) __attribute__ (("..., 811) = 811
+17602 close(3)                          = 0
+17602 munmap(0x7f2430799000, 4096)      = 0
+17602 exit_group(0)                     = ?
+17602 +++ exited with 0 +++
+17601 <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 17602
+17601 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17602, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+17601 stat("/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/.", {st_mode=S_IFDIR|0755, st_size=282, ...}) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/.", {st_mode=S_IFDIR|0755, st_size=282, ...}) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/.", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/.", {st_mode=S_IFDIR|0755, st_size=15, ...}) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/9/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/bin/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/9/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/lib/../lib64/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../x86_64-redhat-linux/9/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../lib64/.", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+17601 stat("/lib/x86_64-redhat-linux/9/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/lib/../lib64/.", {st_mode=S_IFDIR|0555, st_size=90112, ...}) = 0
+17601 stat("/usr/lib/x86_64-redhat-linux/9/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/usr/lib/../lib64/.", {st_mode=S_IFDIR|0555, st_size=90112, ...}) = 0
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../x86_64-redhat-linux/lib/.", 0x7ffeb2e35c90) = -1 ENOENT (No such file or directory)
+17601 stat("/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../.", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+17601 stat("/lib/.", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17601 stat("/usr/lib/.", {st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+17601 exit_group(0)                     = ?
+17601 +++ exited with 0 +++

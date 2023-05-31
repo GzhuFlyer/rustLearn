@@ -1,0 +1,20 @@
+[package]
+name = "syscall_wrap"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctor = "0.2.0"
+# dlopen = "0.1.8"
+# libc-print = "0.1.15"
+# libc = { version = "0.2.96", default-features = false }
+
+[build-dependencies]
+bindgen = "0.64.0"
+
+
+[lib]
+name = "hello"
+crate-type = ["dylib"]
